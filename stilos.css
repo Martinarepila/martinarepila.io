@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto&display=swap');
+/*font-family: 'Rancho', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+*{  padding: 0PX;
+	margin: 0px;
+	border:0px;}
+
+body {
+    background-image: url(img/fondo3.jpg);
+}
+
+#nav-sociales{ 
+	height: 35px;
+	width: 100%;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1a00+0,f0b3f2+100 */
+background: rgb(255,26,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,26,0,0.8) 0%, rgba(240,179,242,0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,26,0,0.8) 0%,rgba(240,179,242,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,26,0,0.8) 0%,rgba(240,179,242,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#f0b3f2',GradientType=0 ); /* IE6-9 */
+}
+#nav-sociales ul { width: 900px; /*ancho*/
+	margin: auto;
+	/*border: solid 1px blue;*/
+}
+	
+#nav-sociales ul li{
+	float: left;
+	list-style-type: none;
+}
+
+#contenedor {
+	width: 900px;
+	height: auto;
+	margin: auto; }
+
+#encabezado {
+    height: 206px;
+    background-image: url(img/header.jpg);	
+	
+}
+#botonera {
+	height: 50px;
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1a00+0,f0b3f2+100 */
+background: rgb(255,26,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,26,0,0.8) 0%, rgba(240,179,242,0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,26,0,0.8) 0%,rgba(240,179,242,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,26,0,0.8) 0%,rgba(240,179,242,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#f0b3f2',GradientType=0 ); /* IE6-9 */
+	
+}
+#botonera li {
+	width: 223px;
+	float: left;
+	border: solid 1px white;
+	list-style-type: none;
+	text-align: center;
+	line-height: 48px;
+}
+
+#botonera ul li a {
+    font-family: 'Rancho', cursive;
+    color: rgba(255,255,255,1.00);
+    font-size: 20px;	
+	font-weight: 600;
+	text-decoration: none;/* para que no tenga subrrallado*/
+	text-transform: uppercase;/* para que ponga mayus*/
+}
+#botonera ul li a:hover { text-shadow: 2px 3px 0px rgba(8, 8, 8, 0.3);
+}
+
+
+
+
+
